@@ -1,0 +1,274 @@
+html,
+body {
+    /* border: 2px solid black; */
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* width: auto; */
+}
+
+html,
+body {
+    min-width: 400px;
+}
+
+header {
+    margin: 0px 0px;
+    width: 100%;
+    /* color: white; */
+    background-color: hsl(246, 88%, 20%);
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    /* height: 100%;
+    margin: 0px;
+    padding: 0px; */
+    /* border: 2px solid black; */
+    /* height: 50vh;
+    width: auto;
+    padding: 5px;
+    margin: 5px;*/
+    background-color: hsl(34deg 31% 93%);
+}
+
+/* header {
+    border: 2px solid black;
+} */
+
+/* div {
+    border: 2px solid black;
+} */
+
+#holder {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 10% 40% 10% 40%;
+    grid-template-rows: 100%;
+    height: 100vh;
+    /* width: auto; */
+}
+
+.first-column {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    color: hsl(247deg 73% 19%);
+    font-size: xx-large;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.book-log {
+    overflow: auto;
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+
+
+.book {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    /* border: 2px solid black; */
+}
+
+img {
+    /* border: 2px solid blue; */
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-top: 0px;
+    width: 80%;
+
+}
+
+.book-info {
+    margin-left: 5px;
+    padding-left: 0px;
+    line-height: 0px;
+    color: hsl(246, 88%, 20%);
+
+    .author {
+        font-size: 8pt;
+    }
+
+    .price {
+        font-weight: bolder;
+    }
+
+    .stock {
+        padding: 4px;
+        font-size: 5pt;
+        color: white;
+        background-color: hsl(108deg 45% 40%);
+        border-radius: 15px;
+        width: 25px;
+        margin-top: 2px;
+        margin-bottom: 4px;
+    }
+
+
+}
+
+#garbage {
+    /* background-image: url("https://cdn0.iconfinder.com/data/icons/app-user-interface-line-7/48/Primary-Challenge04_App_User_Interface-Line__Solid-48px-03-512.png");    */
+    /* border: 2px solid rgb(11, 11, 11); */
+    position: relative;
+    top: 50px;
+    /* left: 375px; */
+    /* padding-right: 15px; */
+    width: 20px;
+    height: auto;
+    float: right;
+    cursor: pointer;
+}
+
+#between-books {
+    height: .1px;
+    width: 400px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: gray;
+    /* border: 2px solid black; */
+
+}
+
+#line-before-form {
+    background-color: hsl(246, 88%, 20%);
+    writing-mode: vertical-rl;
+    transform: rotate(90deg);
+    /* border: 2px solid black; */
+    position: relative;
+    left: -150px;
+    top: 275px;
+    height: .1px;
+    width: 400px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.input-feilds {
+    padding: 20px;
+    padding-top: 125px;
+    text-align: center;
+    /* border: 2px solid black; */
+
+}
+
+#text {
+    background-color: hsl(34deg 31% 93%);
+    border-bottom: 2px solid hsl(246, 88%, 20%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px;
+    width: 250px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+.add-book {
+    color: white;
+    background-color: hsl(246, 88%, 20%);
+    border-radius: 15px;
+    width: 225px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin: 0px 0px;
+    width: 100%;
+    color: white;
+    background-color: hsl(246, 88%, 20%);
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+.link {
+    color: white;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+
+    html,
+    body,
+    footer,
+    header {
+        width: 100%;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-height: 600px) and (orientation: landscape) {
+
+    html,
+    body,
+    footer,
+    header {
+        width: 100%;
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) and (orientation: portrait) {
+
+    html,
+    body,
+    footer,
+    header {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) and (orientation: landscape) {
+
+    html,
+    body,
+    footer,
+    header {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) and (orientation: portrait) {
+
+    html,
+    body,
+    footer,
+    header {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) and (orientation: landscape) {
+
+    html,
+    body,
+    footer,
+    header {
+        width: 100%;
+    }
+}

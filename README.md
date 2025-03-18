@@ -1,7 +1,10 @@
 # Booktory: A Basic Web Application Project
 Booktory is a simple web application designed for managing a book inventory. Through this application, users can display books, add new books to the inventory, and remove books. This project focuses on leveraging fundamental web development skills, including extensive use of HTML, CSS, and JavaScript for DOM manipulation.
 
-Website: https://dbrown499.github.io/First-Project/
+Website: https://dbrown499.github.io/Book-Inventory-Project/
+
+React Version: https://github.com/dbrown499/React-Book-Inventory
+
 
 This repository contains the core framework of Booktory.
 
